@@ -4,7 +4,7 @@ numbers = [1,1,1,1,1]
 #numbers[2] = 5 #Here, we're specifying index 2 value and re-assigning it value 5 and this will change the output.
 
 print(numbers)
-print(numbers*3) #Here, this will print our list 3 times and we'll have 15 "1's"
+print(numbers*3) #Here, this will print our list 3 times and we'll have 15 "1's".
 
 '''
 Have u asked yourself how you would check if a particular item is present in the list or not? Well, the below
