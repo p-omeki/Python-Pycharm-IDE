@@ -10,6 +10,9 @@ Names = ["Patrick", "Bahati", "Klein", "Nigel", "Naftal", "Moyale"] #First, we'v
 print(Names) #This will print all the names in the List.
 
 '''However, list also have positions in them and they're identified using an index [0.....] which starts from 0. So, if we want
-to access "Moyale" individally, we'll specify index[5]
+to access "Moyale" individally, we'll specify index[5].
+
+You can also pass empty list, simply declare: abc = [] ~ This will give an empty list output and can be used later in 
+your project if you need to add a list.
 '''
 print(Names[5])
