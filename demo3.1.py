@@ -18,3 +18,4 @@ print("Apple" in fruits)
 it will printout a FALSE output since the item is not in the fruits list.
 In summary, the keyword here is "in" function which we use to check if a particular item is present in a list or not.
 '''
+
