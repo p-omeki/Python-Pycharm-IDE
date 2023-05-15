@@ -9,7 +9,7 @@ r = int(r)
 
 #We'll specify Simple Interest as 'si()'
 
-si = (p*n*r)//100   #The double forward slash removes the floating point value in our final ans.
+si = (p*n*r)//100   #The double forward slash removes the floating point value in our final answer.
 
 print (si)
 
