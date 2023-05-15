@@ -25,4 +25,4 @@ print(fruits)
 
 #How about we want to check a particular item position in our list position?
 
-print(fruits.index("Mango")) #This will print out the position of Mango in our list giving out its index.
+print(fruits.index("Mango")) #This will print out the position of Mango in our list giving out its index.g
