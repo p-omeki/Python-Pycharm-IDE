@@ -7,7 +7,7 @@ try: #We run the code that we think we'll give an exception error in this try bl
     a = 20
     b = 0
     print(a/b)  #This will give a divide by zero error
-except ZeroDivisionError:  #Confirms there is a divide by zero error in the code and continues with the execution of l11
+except ZeroDivisionError:  #Except block has the code that will execute if there is an exception error in try block
     print("There is a divide by zero error in the code")
     '''Probably wondering what might happen if there would be no ZeroDivisionError?
     The code in the try block will be executed and line 11(l11) would not be executed. 
