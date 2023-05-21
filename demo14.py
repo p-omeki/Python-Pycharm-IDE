@@ -9,6 +9,3 @@ file = open("demo14.txt", "w")
 passed parameters inside. The first parameters we have is the file name that we need to pass the file name we'll access
 and the second parameter is the mode we want to use to access the file, either write or read mode.
 '''
-# This will write on the file
-
-file.close() #Always close your file to avoid errors when running your file
