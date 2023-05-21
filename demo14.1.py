@@ -7,5 +7,8 @@ print(content) # This will print out the .txt file
 that we've read from the .txt.
 Also, inside the file.read(), we may pass some parameter to either specify bits of line to be printed out,
 e.g file.read(10) will only print out 10 bits of code
+
+N/B: In read file, we update the .txt file manually while in write mode, we'll update it from the code and it updates
+automatically to the .txt file.
 '''
 file.close() #Always close your file to avoid errors during execution
