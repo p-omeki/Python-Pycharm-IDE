@@ -14,7 +14,7 @@ file.close()
 we declare the variable content which we use to store the .txt file and print it out.
 """
 
-file = open("demo14.txt", "a")
+file = open("demo14.txt", "a") #The "a" will append the file
 file.write("\n This is the second line we've written")
 file.close()
 """In this block above, the "w" mode will override the 1st "write" in the first block and so, how do we solve this?
