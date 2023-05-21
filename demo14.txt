@@ -1,3 +1,2 @@
-This is line one of the code.
-This is line two of the code.
-This is line three of the code.
+This is the first line we've written
+ This is the second line we've written
