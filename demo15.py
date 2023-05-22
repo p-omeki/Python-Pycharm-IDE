@@ -10,3 +10,7 @@ Dictionaries are similar to list but there are several  differences among them t
 people = {"Patrick": 23, "John Doe": 50} #We've declared two data Patrick and John Doe with their respective age.
 
 print(people["Patrick"]) #This will print the age of John Doe, 50.
+
+'''In the dictionary above, we've defined the key as the string and the value as the integer. But, we can also define 
+it the other way. Check demo15.1
+'''
