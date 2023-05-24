@@ -6,13 +6,13 @@ Also, in generators, we don't have a print statement and in it's place we use yi
 Check the code below...
 '''
 #While Loop for Generators
-'''def gfunctions(): #We define an empty function "gfunctions()"
+def gfunctions(): #We define an empty function "gfunctions()"
     counter = 0
     while counter < 5:
         yield counter
         counter += 1
 for x in gfunctions():
-    print(x)'''
+    print(x)
 #Using Generators to create a list of even numbers
 def gfunctions(x):
     for i in range(x):
