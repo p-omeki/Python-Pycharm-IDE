@@ -14,20 +14,23 @@ Let's now dive deeper in OOP with the example below...
 class Students:
 
 #We define the class attributes/properties
-    def __int__(self, Name, Contact):
+    def __int__(self, Name, Contact): #The __init__() is a method used as a contructor for initializing the objects of
+                                           # a class and the self is a reference to the object being created.
         self.Name = Name
         self.Contact = Contact
 
 #We define the class methods
     def LoginData(self):
         print("Enter your credentials")
-        self.Name = input("Enter name: ")
+        self.Name = input("Enter name: ")   #The methods name can be any name...We've used LoginData() & DisplayData
         self.Contact = input("Enter contact: ")
     def DisplayData(self):
         print("Name is: "+self.Name)
         print("Contact is: "+self.Contact)
 
-#We define the objects of the class. In our case we'll use 'KeyIn'
+#We define the objects of the class. In our case we'll use 'KeyIn' ~ Can be any name...
 KeyIn = Students()
 KeyIn.LoginData()
 KeyIn.DisplayData()
+
+#  Class->Attribute->Method->Object  # ~ The code above we've emphasized on this standard...
