@@ -11,7 +11,7 @@ def fiveFactorial(x):
     if (x == 1):  #We give a condition for the recursion to continue with the iteration
         return 1
     else:
-        return x*fiveFactorial(x-1) #We define the factorial formula
+        return x*fiveFactorial(x-1) #We define the factorial formula, we've also called our function within the fn definition.
 
-Result = fiveFactorial(5)
+Result = fiveFactorial(5) #We call pass the argument 5 and pass it to variable Result.
 print(Result)
