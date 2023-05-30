@@ -13,5 +13,5 @@ def fiveFactorial(x):
     else:
         return x*fiveFactorial(x-1) #We define the factorial formula, we've also called our function within the fn definition.
 
-Result = fiveFactorial(5) #We call pass the argument 5 and pass it to variable Result.
+Result = fiveFactorial(5) #We pass the argument '5' to our function and pass it to variable Result.
 print(Result)
