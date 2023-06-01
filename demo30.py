@@ -23,7 +23,7 @@ class Points:
     def __str__(self):  #Overloads the string representation of the object (str() or print()
         return "({},{})".format(self.x, self.y)
 
-point1 = Points(1, 2)
+point1 = Points(1, 2)   #Defining the object of class...
 point2 = Points(2, 4)
 Result = point1 + point2 # '+' operator is overloaded for coordinates x and y
 
