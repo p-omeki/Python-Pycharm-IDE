@@ -13,4 +13,4 @@ class EnCap:
         print(self.__hideVariable)
 
 ObjeEncap = EnCap()
-ObjeEncap.add(5)
+ObjeEncap.__add__(5)
