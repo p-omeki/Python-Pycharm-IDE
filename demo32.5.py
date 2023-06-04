@@ -6,4 +6,8 @@ Check the example below...
 '''
 import re
 
-Rpattern = r"mail(mine)"
+Rpattern = r"mail(mine)*"
+if re.match(Rpattern, "mail(mine)partymeki@gmail.commailmine"):
+    print("Match Found")
+else:
+    print("Not Found")
