@@ -7,9 +7,10 @@ tasks in python, this includes;
 '''
 import re
 Rpattern = r"mail"  #The 'r' prefix is used to create raw strings for our pattern, in this case, 'mail'
-if re.match(Rpattern, "mailpartymeki@gmail.commail"):
+if re.match(Rpattern, "mailpartymeki@gmail.com"):
    print("Match Found")
 else:
    print("No match found")
 
 #re.match//re.search//re.sub
+  #re.match
